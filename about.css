@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.bande{
+    display: flex;
+    width: 100%;
+    
+   
+   
+}
+
+.titre{
+  font-size: 2rem;
+  width: 100%;
+  
+  text-align: center;
+  font-family: BebasKai;
+
+}
+
+.contact{
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: BebasKai;
+  
+  }
+
+.titre4{
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Baikal-Regular;
+  
+  }
+  
+
+
+
+.autres{
+    
+   margin-top: -4%;
+   display: flex;
+   margin-bottom: 9%;
+   margin-right: 3%;
+    
+   
+  
+    
+}
+
+
+
+
+
+.feux{
+    height: 450px;
+   
+}
+
+
+
+.rats{
+    height: 400px;
+    
+}
+
+.son{
+    height: 350px;
+    
+}
+
+
+
+.projets{
+    margin-top: 10%;
+
+}
+
+
+.porti{
+    margin-left: auto;
+    margin-right: 1%;
+
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+}
+
+
+.porta{
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;;
+}
+
+.describe{
+    font-size: 1.1rem;
+    font-family: Baikal-VF;
+    text-align: center;
+    margin-top: 1%;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.photo{
+    height: 300px;
+    border-radius: 20%;
+    margin-bottom: 10%;
+    
+    
+    
+    
+}
+
+
+@font-face {
+    font-family: "BebasKai";
+    src: url("BebasKai.ttf");
+}
+
+@font-face {
+    font-family: "Baikal-VF";
+    src: url("Baikal-VF.ttf");
+}
+
+
+
+.langue{
+    
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+    
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: BebasKai;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background-color: #e3e701;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: BebasKai;
+    font-size: 1rem;
+    margin-bottom: 25%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+hr{
+    width: 30%;
+    margin-bottom: 5%;
+}

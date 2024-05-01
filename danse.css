@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.titre1{
+    font-size: 1.7rem;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+    text-align: left;
+    font-family: BebasKai;
+}
+
+
+.titre2{
+    font-size: 1rem;
+    
+    margin-left: 5%;
+    width: 100%;
+    text-align: left;
+    font-family: Baikal-VF;
+    
+}
+
+
+.video{
+    text-align: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.description{
+    margin-left: 5%;
+    margin-top: 2%;
+    
+    font-family: Baikal-VF;
+    width: 40%;
+}
+
+
+
+.bande{
+    display: flex;
+    width: 100%;
+   
+}
+
+.titre{
+  font-size: 2rem;
+  width: 100%;
+  
+  text-align: center;
+  font-family: BebasKai;
+
+}
+
+
+
+
+.autres{
+    
+    margin-top: -4%;
+    display: flex;
+     
+    
+   
+     
+}
+
+
+.porti{
+    margin-left: auto;
+    margin-right: 1%;
+
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+}
+
+
+.porta{
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+}
+
+@font-face {
+    font-family: "BebasKai";
+    src: url("BebasKai.ttf");
+}
+
+@font-face {
+    font-family: "Baikal-VF";
+    src: url("Baikal-VF.ttf");
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.bande{
+    display: flex;
+    width: 100%;
+    
+   
+   
+}
+
+.titre{
+  font-size: 2rem;
+  width: 100%;
+  
+  text-align: center;
+  font-family: BebasKai;
+
+}
+
+
+
+
+
+.autres{
+    margin-top: -4%;
+    display: flex;
+    margin-right:3% ;
+}
+
+
+.projets {
+    
+    width: 100%;
+    padding: none;
+    margin: none;
+    display: flex;
+    
+   
+}
+
+.projets {
+    margin-top: 5%;
+    width: 100%;
+    padding: none;
+    margin: none;
+    display: flex;
+   
+    
+    
+   
+}
+
+.projet22{
+    display: flex;
+   
+    width: 100%;
+    padding: 0;
+    margin: none;
+    display: flex;
+   
+}
+
+.feux, .rats {
+    max-width: 100%;
+    height: auto;
+}
+
+.sons, .troisD {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Media query pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+    .feux, .rats, .sons {
+        max-width: 100%; /* Ajuster la largeur des images à 100% */
+    }
+}
+
+.porti{
+    margin-left: auto;
+    margin-right: 1%;
+
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+}
+
+
+.porta{
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+}
+
+.langue{
+    
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+    
+}
+
+
+@font-face {
+    font-family: "BebasKai";
+    src: url("BebasKai.ttf");
+}
